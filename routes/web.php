@@ -16,3 +16,22 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('home');
 });
+
+Route::get('/aboutus', function () {
+    return view('aboutus');
+});
+
+Route::get('/contacts', function () {
+    return view('contacts');
+});
+
+Route::get('/laravel', function () {
+    return view('laravel');
+});
+
+Route::get('/magic', function () {
+    return view('magic');
+});
+Route::get('/shop', function () {
+    return view('shop');
+});
